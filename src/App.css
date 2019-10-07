@@ -4,7 +4,6 @@
 }
 
 .scoreboard {
-  width: 58%;
   margin: 10rem auto;
   background-color: #0b5402;
   color: white;
@@ -100,7 +99,6 @@
   width: 7rem;
   text-align: center;
   background-color: var(--black);
-  margin-top: 1rem;
   border-radius: 4px;
   padding: 1.6rem;
   border: 1px solid white;
@@ -113,6 +111,7 @@
   justify-content: space-around;
 }
 
+
 .homeButtonsPat,
 .homeButtons__touchdown,
 .homeButtons__fieldGoal,
@@ -121,4 +120,13 @@
 .awayButtons__fieldGoal {
   margin: 1rem;
   border-radius: 4px;
+}
+
+.quarterButtons {
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+.quarterButtonsCont {
+  display:flex;
+  flex-direction: column;
 }
